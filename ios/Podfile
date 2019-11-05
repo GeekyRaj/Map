@@ -53,7 +53,7 @@ target 'Map' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
   pod 'GoogleMaps'
-  
+  # pod 'Google-Maps-iOS-Utils'
   pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
 
   pod 'react-native-maps', :path => '../node_modules/react-native-maps'
