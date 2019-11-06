@@ -54,9 +54,7 @@ target 'Map' do
 
   pod 'GoogleMaps'
   # pod 'Google-Maps-iOS-Utils'
-  pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
-
-  pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+  pod 'Google-Maps-iOS-Utils', :git => 'https://github.com/googlemaps/google-maps-ios-utils.git', :commit => 'd5ca417617170b9a0e4e83964e961bfaf9b26f1f'
 
   target 'MapTests' do
     inherit! :search_paths

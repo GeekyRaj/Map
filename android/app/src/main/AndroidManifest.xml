@@ -56,5 +56,4 @@
   <uses-permission android:name="android.permission.WRITE_CONTACTS" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL" />
-
 </manifest>

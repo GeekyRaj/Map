@@ -823,7 +823,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
-					"HAVE_GGOGLE_MAPS=1",
+					"HAVE_GOOGLE_MAPS=1",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -886,7 +886,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
-					"HAVE_GGOGLE_MAPS=1",
+					"HAVE_GOOGLE_MAPS=1",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

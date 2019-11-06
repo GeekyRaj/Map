@@ -179,8 +179,6 @@ android {
 }
 
 dependencies {
-    implementation project(':react-native-maps')
-    implementation project(':react-native-permissions')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
@@ -189,7 +187,7 @@ dependencies {
        exclude group: 'com.google.android.gms', module: 'play-services-maps'
    }
    implementation 'com.google.android.gms:play-services-base:10.0.1'
-   implementation 'com.google.android.gms:play-services-maps:10.0.1'
+   implementation 'com.google.android.gms:play-services-maps:16.1.0'
 
    
     if (enableHermes) {

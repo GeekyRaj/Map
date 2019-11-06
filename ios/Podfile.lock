@@ -19,6 +19,22 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - Google-Maps-iOS-Utils (2.1.0):
+    - Google-Maps-iOS-Utils/Clustering (= 2.1.0)
+    - Google-Maps-iOS-Utils/Geometry (= 2.1.0)
+    - Google-Maps-iOS-Utils/Heatmap (= 2.1.0)
+    - Google-Maps-iOS-Utils/QuadTree (= 2.1.0)
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Clustering (2.1.0):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Geometry (2.1.0):
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Heatmap (2.1.0):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/QuadTree (2.1.0):
+    - GoogleMaps
   - GoogleMaps (3.4.0):
     - GoogleMaps/Maps (= 3.4.0)
   - GoogleMaps/Base (3.4.0)
@@ -266,6 +282,7 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - Google-Maps-iOS-Utils (from `https://github.com/googlemaps/google-maps-ios-utils.git`, commit `d5ca417617170b9a0e4e83964e961bfaf9b26f1f`)
   - GoogleMaps
   - Permission-BluetoothPeripheral (from `../node_modules/react-native-permissions/ios/BluetoothPeripheral.podspec`)
   - Permission-Calendars (from `../node_modules/react-native-permissions/ios/Calendars.podspec`)
@@ -325,6 +342,9 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  Google-Maps-iOS-Utils:
+    :commit: d5ca417617170b9a0e4e83964e961bfaf9b26f1f
+    :git: https://github.com/googlemaps/google-maps-ios-utils.git
   Permission-BluetoothPeripheral:
     :path: "../node_modules/react-native-permissions/ios/BluetoothPeripheral.podspec"
   Permission-Calendars:
@@ -402,6 +422,11 @@ EXTERNAL SOURCES:
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
+CHECKOUT OPTIONS:
+  Google-Maps-iOS-Utils:
+    :commit: d5ca417617170b9a0e4e83964e961bfaf9b26f1f
+    :git: https://github.com/googlemaps/google-maps-ios-utils.git
+
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
@@ -409,6 +434,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: f7be9bcc5ce259f7c39509f3f4caf59020d11d4c
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
+  Google-Maps-iOS-Utils: c32891ff472eaaa1fca032beedafa1a013af7875
   GoogleMaps: 67f4a604f80dd6a22d09c2a507a3a395b9f23060
   Permission-BluetoothPeripheral: 091a53a4625e149312f7ca153e4b913ca5c38348
   Permission-Calendars: cd156999d99a2b0c57e852e19efdea4887fd6288
@@ -449,6 +475,6 @@ SPEC CHECKSUMS:
   RNPermissions: 332fd0d0c33ba71d83a22f584fce7b2270488ae0
   Yoga: 02036f6383c0008edb7ef0773a0e6beb6ce82bd1
 
-PODFILE CHECKSUM: 5f84f7d603cfd89be1e4635442b9539bedca0b39
+PODFILE CHECKSUM: e1d6ef445f68000043fedf45e868588162739465
 
 COCOAPODS: 1.8.4

@@ -52,7 +52,7 @@
 // export default App;
 import React from 'react';
 import { StyleSheet, Text, View , TextInput} from 'react-native';
-import MapView, {Marker} from 'react-native-maps';
+import MapView, {Marker, PROVIDER_GOOGLE} from 'react-native-maps';
  
 export default class App extends React.Component {
   onRegionChange(region) {
@@ -63,6 +63,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <MapView
+          provider={PROVIDER_GOOGLE}
           style={styles.map}
           initialRegion={{
             latitude: 37.78825,
